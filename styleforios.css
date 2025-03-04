@@ -1,0 +1,31 @@
+
+/* Responsive cho mobile */
+@media screen and (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+    aside {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .product-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    }
+    .header {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+    .header {
+        padding: 10px;
+    }
+    .product {
+        padding: 10px;
+    }
+}
